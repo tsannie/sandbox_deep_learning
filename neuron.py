@@ -1,6 +1,5 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from sklearn.datasets import make_blobs
 import h5py
 from tqdm import tqdm
 
@@ -109,14 +108,3 @@ if __name__ == "__main__":
     print("Accuracy for test set: ", np.mean(pred == y_test))
 
 
-    """     plt.figure(figsize=(16, 8))
-    for i in range(10):
-        plt.subplot(4, 5, i + 1)
-        plt.imshow(X_train[i], cmap='gray')
-        plt.tight_layout()
-    plt.show() """
-
-    """ W, b = fit(X_train, y_train, alpha=0.1, epochs=100)
-
-    pred = predict(X_test, W, b) """
-    #print("Accuracy: ", np.mean(pred == y_test))
