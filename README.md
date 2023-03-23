@@ -27,3 +27,11 @@ The objective of this program is to implement a neural network. We will use skle
 ![image](https://i.imgur.com/9rCYBMW.png)
 
 ### Conclusion
+
+In conclusion, the neural network implementation works well as shown in the exemplary output, and it proves that the problem is no longer linearly separable. However, it still doesn't work for the cat-dog dataset due to overfitting. Moreover, we observed that the performance of the model does not increase with the number of layers inside, which could be due to the vanishing gradient problem where the gradients become too small during backpropagation, hindering the network's ability to learn.
+
+## Program 3: Convolutional Neural Network (cnn.py)
+
+### Objective
+
+The objective of this program is to implement a convolutional neural network. We will use keras to build datasets and train the neural network.

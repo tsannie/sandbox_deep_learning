@@ -2,7 +2,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 import h5py
 from tqdm import tqdm
-from neuron import load_data, normalize_data, flatten_data
 from sklearn.datasets import make_moons, make_circles, make_classification, make_blobs
 
 def init(dimension):
