@@ -96,7 +96,6 @@ def fit(X, y, alpha=0.1, epochs=100, layers=(32, 32, 32)):
 
 if __name__ == "__main__":
     X, y = make_blobs(n_samples=1000, centers=2, cluster_std=2, random_state=42)
-    print(y)
 
     X = X.T
     y = y.reshape(1, -1)
